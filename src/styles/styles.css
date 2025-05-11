@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Botón Primary */
+.btn-primary {
+  background-color: #0487d9; /* Azul */
+  border-color: #0487d9;
+}
+
+.btn-primary:hover {
+  background-color: #026b9b; /* Azul más oscuro */
+  border-color: #026b9b;
+}
+
+/* Botón Secondary */
+.btn-secondary {
+  background-color: #acd7f2; /* Azul claro */
+  border-color: #acd7f2;
+}
+
+.btn-secondary:hover {
+  background-color: #8bb8e3; /* Azul más oscuro */
+  border-color: #8bb8e3;
+}
+
+/* Botón Info */
+.btn-info {
+  background-color: #ffc14b; /* Amarillo */
+  border-color: #ffc14b;
+}
+
+.btn-info:hover {
+  background-color: #e6a84a; /* Amarillo más oscuro */
+  border-color: #e6a84a;
+}
